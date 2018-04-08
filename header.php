@@ -19,7 +19,7 @@
 	<?php endif; ?>
 <?php endif; ?>
 
-<?php wp_head(); ?>
+<?php do_action('wp_head');?>
 </head>
 
 <body <?php body_class(); ?>>
