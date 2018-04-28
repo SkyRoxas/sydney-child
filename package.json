@@ -26,7 +26,13 @@
     "webpack-stream": "^4.0.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-brands": "^5.0.9",
+    "@fortawesome/fontawesome-free-regular": "^5.0.9",
+    "@fortawesome/fontawesome-free-solid": "^5.0.9",
+    "axios": "^0.18.0",
     "express": "^4.16.2",
+    "gravatar": "^1.6.0",
     "path": "^0.12.7"
   }
 }

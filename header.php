@@ -34,6 +34,28 @@
 
 	<?php do_action('sydney_before_header'); //Hooked: sydney_header_clone() ?>
 
+	<?php if(is_page('aboutme')): ?>
+		<header id="resume-header">
+			<div class="container">
+					<div class="row">
+						<div class="gravatar col-md-2">
+							<img src="http://line.roxas.tw/wp-content/uploads/2018/04/line-292x300.png" alt="">
+						</div>
+						<div class="perfile col-md-5">
+							<div class="name">
+								<h1>賴玟卉</h1>
+							</div>
+						</div>
+						<div class="about col-md-5">
+							我很胖胖 我很胖胖 我很胖胖 我很胖胖 我很胖胖 我很胖胖 我很胖胖 我很胖胖 我很胖胖 我很胖胖
+							我很胖胖 我很胖胖 我很胖胖 我很胖胖 我很胖胖 我很胖胖 我很胖胖 我很胖胖 我很胖胖 我很胖胖
+						</div>
+					</div>
+			</div>
+		</header>
+
+	<?php endif; ?>
+
 	<?php if(!is_page('aboutme')): ?>
 
 		<header id="masthead" class="site-header" role="banner">
